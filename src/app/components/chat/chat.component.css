@@ -1,0 +1,223 @@
+.example-container {
+
+    height: 737px;
+    margin: 10px;
+  }
+  .icon{
+    height: 15px;
+    width: 130px;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+
+}
+.primero{
+    width: 290px;
+    background-color: rgb(0, 168, 80 );
+}
+
+.new{
+    margin: 20px 0 0 35px;
+
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.chat{
+    margin: 10px;
+}
+
+.icon1{
+    height: 15px;
+    color: aliceblue;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .centered-text {
+    color: rgb(0, 168, 80);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+  .mat-drawer-content {
+    position: relative;
+  }
+  
+  .mat-drawer-content {
+    position: relative;
+  }
+  
+  .column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .column div {
+    width: 90px; /* Ajusta el ancho deseado */
+    height: 40px; /* Ajusta la altura deseada */
+    font-size: 14px; /* Ajusta el tamaño de fuente deseado */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .column div p {
+    color: rgb(0, 168, 80);
+    margin: 0;
+    font-size: 15px;
+  }
+  
+  .column div mat-icon {
+    display: block;
+    margin: 0 auto;
+    font-size: 24px; 
+  }
+
+  .column button {
+    background-color: rgb(0, 168, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 5px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .button-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+  .button-content mat-icon {
+    font-size: 24px;
+  }
+  
+  .consulta1 {
+    margin: 0;
+    font-size: 10px;
+    color: black;
+  }
+  
+  @media (max-width: 768px) {
+    .column {
+      grid-template-columns: repeat(1, 1fr);
+      width: auto;
+    }
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+  }
+  
+  .centered-text {
+    color: rgb(0, 168, 80);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10vh;
+  }
+  
+  .mat-drawer-content {
+    position: relative;
+  }
+  
+  .column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  .column div {
+    width: 100%;
+  }
+
+  
+  .button-content mat-icon {
+    font-size: 24px;
+  }
+  
+  .consulta1 {
+    margin: 0;
+    font-size: 10px;
+    color: black;
+  }
+
+  .button-container {
+    margin-top: 10px;
+}
+
+.column button {
+    width: 300px; /* Ajusta el ancho deseado */
+}
+  
+  @media (max-width: 768px) {
+    .column {
+      grid-template-columns: repeat(1, 1fr);
+      width: 50px;
+    }
+    }
+    .input-container {
+        position: fixed;
+        bottom: 0;
+        left: 40%; /* Centra el contenedor en horizontal */
+        transform: translateX(-20%); /* Ajusta la posición centrada */
+        width: 65%; /* Ajusta el ancho deseado */
+        padding: 8px;
+        background-color: rgba(180, 255, 216, 0.336);
+        display: flex;
+        align-items: center;
+        justify-content: center; /* Centra el contenido horizontalmente */
+        margin: 0 auto; /* Ajusta los márgenes automáticos */
+      }
+      
+      .input-container input {
+        flex: 1;
+        border: none;
+        background-color: transparent;
+        padding: 4px;
+        font-size: 14px;
+      }
+      
+      .input-container button {
+        background-color: rgb(0, 168, 80 );
+        color: #fff;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        margin-left: 8px;
+        font-size: 14px;
+        cursor: pointer;
+      }

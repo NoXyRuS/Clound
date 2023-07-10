@@ -1,0 +1,100 @@
+.nabvar{
+    background-color: rgb(0, 168, 80 );
+    
+}
+span{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.example-spacer{
+    flex: 1 1 auto;
+}
+
+button{
+    margin: 0 10px;
+    color: rgb(0, 0, 0);
+}
+
+.matmenuContainer{
+    background-color: rgb(126, 76, 9);
+}
+
+.matmenutext{
+    color:rgb(40, 14, 55);
+}
+
+.mat-icon{
+    color: rgb(0, 0, 0);
+
+}
+.icon{
+    height: 20px;
+    width: 130px;
+    color: aliceblue;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+
+}
+.icon2{
+    height: 20px;
+    width: 150px;
+    color: aliceblue;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+
+}
+.bar{
+    height: 30px;
+    width: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+}
+.contactos{
+    height: 20px;
+    width: 700px;
+    color: aliceblue;
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-style: normal;
+
+}
+.Title{
+    font-size: 100%;
+}
+
+@media (max-width: 600px) {
+    .Title{
+    font-size: 15px;
+    }
+}
+
+
+.nabvar2{
+    background-color: rgb(255, 255, 255);
+    
+}
+.SANNA-logo{
+    width: 190px;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.boton{
+    top: 20px;
+    width: 170px;
+    color: rgb(158, 158, 158);
+}
+
+.imagen{
+    width: 550px;
+}
+
+.down{
+    height: 18px;
+    color: rgb(158, 158, 158);
+}

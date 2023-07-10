@@ -1,0 +1,38 @@
+<div class="fondo">
+    <div class="card">
+        <h1>Iniciar sesión - Agendamiento de citas SANNA</h1>
+    </div>
+    <section>
+        <div class="container">
+            <mat-button-toggle-group [(ngModel)]="fontStyle" aria-label="Font Style">
+                <mat-button-toggle class="color" value="DNI">DNI</mat-button-toggle>
+                <mat-button-toggle class="color" value="C.E">C.E</mat-button-toggle>
+                <mat-button-toggle class="color" value="PASAPORTE">PASAPORTE</mat-button-toggle>
+            </mat-button-toggle-group>
+        </div>
+    </section>
+    <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Número de documento</mat-label>
+            <input matInput>
+        </mat-form-field>
+    </form>
+    <form class="example-form">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Contraseña</mat-label>
+            <input matInput>
+        </mat-form-field>
+    </form>
+    <p class="r">Recordarme</p>
+    <p class="c">Cláusula informativa de <a href="" class="link">Protección de Datos Personales</a> </p>
+    <div class="example-button-row">
+        <button mat-fab extended>
+            Ingresar
+        </button>
+    </div>
+    <p class="con"><a href="" class="contraseña">Olvidé mi contraseña</a></p>
+    <p class="no">¿No tienes cuenta? \ <a href="" class="link">Registrate</a></p>
+</div>
+<footer>
+
+</footer>
